@@ -1,0 +1,208 @@
+body
+{
+	background-color: red;
+	overflow:hidden;
+}
+
+
+.title
+{
+	color: black;
+ 	text-align: center;
+	margin-right:20%;
+	font-size: 4em;
+	font-weight: normal;
+	font-family: Andale Mono, monospace;
+	font-effect;
+}
+
+
+
+
+
+.items
+{
+	
+	background:white;
+	width:50%;
+ 	height:60%;
+	position:absolute; 
+	right:35%; 
+	top:15%;	
+}
+
+#underInput
+{
+	width:50%;
+ 	height:25%;
+	position:absolute; 
+	top:75%;
+	right:35%;
+}
+
+#Inputting
+{
+	display: inline-block;
+	width: 80%;
+	height:30%;
+}
+
+#developer
+{
+	width:38%;
+ 	height:5%;
+	position:absolute;  
+	bottom:0.1%;
+	left:10%;
+}
+
+.deletedFlag
+{
+	display:inline-block;
+}
+.changedFlag
+{
+	display:inline-block;
+}
+.changeButton
+{
+	display:inline-block;
+	text-color: white;
+	color: white;
+        top:10%;
+	width:55%;
+ 	height:6%;	
+	background-color: grey;
+	text-align: center;
+	font-size: 1em;
+	font-family: Andale Mono, monospace;
+	font-effect;
+	cursor: pointer;
+}
+.closeButton
+{
+	display:inline-block;
+	text-color: white;
+	color: white;
+	width:20%;
+ 	height:6%;	
+	background-color: red;
+	text-align: center;
+	font-size: 1em;
+	font-family: Andale Mono, monospace;
+	font-effect;
+	cursor: pointer;
+}
+
+.name
+{
+	color:white;
+	text-align: right;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+	font-family: Andale Mono, monospace;
+	margin-right: 10%;
+}
+
+.chat
+{
+	list-style-type: none;
+	
+}
+
+.Uname
+{
+	font-family: Andale Mono, monospace;
+}
+.userName
+{
+	border-width: thick;
+	border-style: outset;
+	border-color:  black;
+}
+.inputName
+{
+	border-width: thick;
+	border-style: outset;
+	border-color:  black;
+}
+
+#Sending
+{
+	display: inline-block;
+	position:absolute;
+	width:20%;
+	height:30%;
+	
+}
+.inputMessage
+{	 text-align: justify;
+	resize:none;
+	width:100%;
+	height:100%;
+	
+}
+
+.line
+{
+	background-color:black;
+}
+.items
+{
+	overflow: auto;
+}
+.send
+{	
+	width: 100%;
+	height: 100%;
+	font-style: normal;
+	font-weight: normal;
+	border-width: thick;
+	border-style: outset;
+	border-color: black;
+	background-color: grey;
+ 	color: white;
+	cursor: pointer;
+ 	text-align: center;
+	font-size: 1.2em;
+	font-family: arial, serif;
+}
+
+.develope
+{
+	color:black;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.5em;
+	font-family: Andale Mono, monospace;
+}
+
+.yourNick
+{	
+	margin-top:2%;
+	display:inline-block;
+	width: 20%;
+	color:grey;
+	text-align: left;
+	text-align: top;
+	word-wrap: break-word;
+}
+
+.message
+{
+	margin-top:2%;
+	display:inline-block;
+	width: 60%;
+	text-align: left;
+	text-align: top;
+	word-wrap: break-word;
+}
+
+.flags
+{
+	margin-top:2%;
+	display:inline-block;
+	text-align: right;
+	width:18%;
+}
